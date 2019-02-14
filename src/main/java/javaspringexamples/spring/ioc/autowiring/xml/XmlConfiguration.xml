@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 	<bean id="userService"
-		class="com.codercocoon.spring.ioc.autowiring.xml.UserServiceImpl"
+		class="javaspringexamples.spring.ioc.autowiring.xml.UserServiceImpl"
 		autowire="byName" />
 
 	<bean id="userDao"
-		class="com.codercocoon.spring.ioc.autowiring.xml.UserDaoInMemoryImpl" />
+		class="javaspringexamples.spring.ioc.autowiring.xml.UserDaoInMemoryImpl" />
 
 	<bean id="userDaoJdbc"
-		class="com.codercocoon.spring.ioc.autowiring.xml.UserDaoJdbcImpl" />
+		class="javaspringexamples.spring.ioc.autowiring.xml.UserDaoJdbcImpl" />
 
 </beans>

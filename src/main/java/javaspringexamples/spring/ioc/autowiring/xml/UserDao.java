@@ -1,8 +1,8 @@
-package com.codercocoon.spring.ioc.autowiring.xml;
+package javaspringexamples.spring.ioc.autowiring.xml;
 
 /**
  * 
- * @author contact@codercocoon.com
+ * @author mounir.sahrani@gmail.com
  *
  */
 public interface UserDao {
